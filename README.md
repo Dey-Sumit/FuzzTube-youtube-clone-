@@ -1,3 +1,6 @@
+- This is the v1.0 of FuzzTube- a youtube clone.
+- [Track of this app](https://www.notion.so/Making-of-Fuzz-Tube-YouTube-clone-63e839969f8e4d43a2c5c8fb9e9276d5) can be found here
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
