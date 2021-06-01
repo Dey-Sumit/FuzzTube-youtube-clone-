@@ -1,6 +1,8 @@
 @import "../../base.scss";
 
-.navbar {
+//! change the navbar class to something else as bootstrap already has a class named navbar which overwrites your css
+//https://getbootstrap.com/docs/4.0/components/navbar/
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,8 +14,9 @@
   height: 10vh;
   width: 100%;
 
-  position: fixed;
+  position: fixed; // bootstrap navbar has the position relative
   top: 0;
+  left: 0;
 
   z-index: 999;
   &_menu {

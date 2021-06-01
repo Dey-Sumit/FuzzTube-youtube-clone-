@@ -22,16 +22,17 @@ const NavbarContainer = ({ handleToggleSidebar }) => {
   const user = useSelector((state) => state.auth?.user);
 
   return (
-    <div className="navbar">
+    // changed the className to header
+    <div className="header">
       <FaBars
-        className="navbar_menu"
+        className="header_menu"
         size={26}
         onClick={() => handleToggleSidebar()}
       />
 
       <Link to="/" style={{ textDecoration: "none" }}>
         {" "}
-        <div className="navbar_logo">
+        <div className="header_logo">
           <SiYoutubetv style={{ color: "rgba(224, 0, 0, 0.62)" }} /> {""}
           Fuzz<span>Tube !</span>
         </div>
@@ -49,7 +50,7 @@ const NavbarContainer = ({ handleToggleSidebar }) => {
         </button>
       </form>
 
-      <div className="navbar_icons">
+      <div className="header_icons">
         <MdNotifications size={28} />
         <MdApps size={28} />
         <img src={user?.photo} alt="avatar" />
